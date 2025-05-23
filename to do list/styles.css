@@ -1,0 +1,53 @@
+a{
+  text-decoration:none;
+  color:rgb(156, 156, 156);
+}
+a:visited{
+  color:rgb(67, 212, 0);
+  text-decoration: line-through;
+}
+a:hover{
+  color:rgb(218, 207, 0);
+  text-decoration: underline;
+}
+a:focus{
+  color:yellow;
+  border:3px;
+}
+a:active{
+  color:white;
+}
+hr{
+    width:100%;
+    color:rgb(18, 0, 0);
+    height:3px;
+    
+}
+h1{
+    text-align:center;
+  
+}
+li{
+    text-align: left;
+}
+.list{
+    text-align:center;
+    list-style-position: inside;
+    
+    max-width: 500px;
+    background-color:silver;
+    margin-top: 100px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:8px;
+    border-style:double;
+    border-width:10px;
+    border-color:rgb(144, 203, 255);
+    background-color: rgb(255, 255, 255);
+    font-family:sans-serif;
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzt_6tqHPwp1mNqTshtpyjQ9WD8epxuAk2sQ&s);
+   
+   
+}
