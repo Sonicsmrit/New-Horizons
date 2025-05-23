@@ -1,0 +1,89 @@
+body{
+  padding:50px;
+  margin-top:0;
+  margin-bottom:0;
+  margin-left:auto;
+  margin-right:auto;
+  background-image: linear-gradient(to bottom,gold,rgb(164, 5, 5),purple,black,darkblue,silver,lightgray);
+  
+
+}
+h1{
+    background-image: linear-gradient(to right,cyan,gold);
+    text-align: center;
+    width:100%;
+    border-radius: 20px;;
+}
+header{
+    margin-left:auto;
+  margin-right:auto;
+    width:80%;
+
+}
+.anime-awards {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;;
+}
+
+li{
+  text-align:left;
+}
+hr{
+
+  width:101.5%;
+  height:3px;
+  background-color:silver;
+  border-style:outset;
+  border-color: lightpink;
+  border-width: 2px;
+
+}
+
+.hosts{
+    width:100%;
+    text-align: left;
+    padding:5px;
+    line-height: 1.2rem;
+    margin: 3PX;;
+    border-style: double;
+    border-width: 3px;
+    border-color: black;
+    font-family: sans-serif;
+    background-image: linear-gradient(to left, cyan,white);
+    
+    
+}
+.performencers{
+    width:100%;
+    line-height: 1.2rem;
+    padding:5px;
+    margin: 3px;
+    border-style: double;
+    border-width: 3px;
+    border-color: black;
+    font-family: sans-serif;
+    background-image: linear-gradient(to left, brown,white);
+}
+.hot-anime{
+    
+  text-align:left;
+  width:100%;
+  padding:5px;
+  margin: 3px;
+  border-style: double;
+    border-width: 3px;
+    border-color: black;
+    font-family: sans-serif;
+    background-image: linear-gradient(to left, lime,white);
+
+}
+.copyright{
+    padding:3px;
+    margin:2px;
+    font-style: normal;
+    font-family: Helvetica Bold;
+}
