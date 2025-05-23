@@ -1,0 +1,51 @@
+.blog-post-card{
+  background-color:rgb(156, 35, 35);
+  border-radius:10px;
+  text-align:center;
+  width:500px;
+  margin-left: auto;
+  margin-right: auto;
+  border:5px;
+  border-style: double;
+  border-color: blanchedalmond;
+}
+
+body{
+    background: linear-gradient(to right, white,black);
+}
+.post-img{
+  width:100%;
+  border-radius: 10px;
+  border-color: black;
+  background-color: aqua;
+}
+.post-content{
+  padding:20px;
+
+}
+.post-title{
+  color:rgb(163, 61, 61);
+  margin:10px;
+  border-style:solid;
+  border-width:thin;
+  background: linear-gradient(to right,black, white)
+}
+.post-excerpt{
+  color:silver;
+
+  margin:20px;
+}
+.read-more{
+  color:black;
+  background-color:silver;
+  margin:20px;
+  padding:10px;
+  border-radius:30px;
+  display:inline-block;
+  text-decoration: none;
+
+}
+.read-more:hover{
+  background-color:red;
+  
+}
