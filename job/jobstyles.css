@@ -1,0 +1,93 @@
+body{
+background-image: linear-gradient(to right, red,black, darkgreen);
+}
+input:focus,textarea:focus{
+  border-color:red;
+  border-width:2px;
+  border-style:solid;
+  
+}
+.radio-group {
+  margin-top: 0;
+  padding-top: 0;
+ 
+} 
+
+
+.headerrr{
+  justify-content: center;
+  background-image: linear-gradient(to right,blue, cyan);
+  display: flex;
+  border-style: double;
+  border-color: brown;
+  padding:5px;
+
+}
+.container{
+  background-color: azure;
+  padding:20px;
+  margin:20px auto;
+  box-shadow: 0 0 10px silver;
+  width:80%;
+  border-color: black;
+  border-width: 4px;
+  border-style: double;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* line-height: 30px; */
+
+}
+input:invalid,select:invalid,textarea:invalid{
+  border-color:red;
+}
+input:valid,select:valid,textarea:valid{
+  border-color:green;
+}
+button:hover{
+  background-color:yellow;
+  transform: scale(1.1);
+  transition: background-color 2s, transform 1s ease;
+
+}
+.radio-group input[type="radio"]:checked{
+  border-color:red;
+  background-color:black;
+box-shadow:0 0 5px red;
+accent-color: green;
+}
+
+.radio-group input[type="radio"]:checked + label {
+  color: green;
+  font-weight: bold;
+}
+.radio-group input[type="radio"]+ label:checked{
+   border: 2px solid green;
+   background-color:green;
+   accent-color: green;
+}
+input:first-of-type{
+  border-radius:10px;
+}
+.radio-group{
+  width:fit-content;
+}
+.container label {
+  display: inline-block;
+  margin-bottom: 5px;  
+  margin-top: 20px;    
+  font-weight: bold;
+}
+
+.container textarea{
+  width:100%;
+  height:150px;
+}
+
+
+button {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: block;
+  margin: 20px auto;
+  width:30%;
+  height:30%;
+  padding:20px;
+}
